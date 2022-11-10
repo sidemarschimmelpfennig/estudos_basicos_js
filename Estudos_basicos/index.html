@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Texto</title>
+</head>
+<body>
+   
+
+    <script >
+
+          /*function teste(operator = selecao, num1 = numeone  , num2= numetwo ){
+            if (operator === "soma"){
+                document.body.innerHTML = (num1 + num2)
+            }
+            if (operator === "diminui"){
+                document.body.innerHTML = (num1 - num2) 
+            }
+            if (operator === "multiplica"){
+                document.body.innerHTML = (num1 * num2)
+            }
+            if (operator === "divide"){
+                document.body.innerHTML = (num1 / num2)
+            }
+        }
+
+        teste("soma", 30, 200)
+
+
+        console.log("hj eu estou com preguiça")
+
+        var teste1 = window.prompt("Digite seu nome : ")
+        document.body.innerHTML = (`ola seja bem vindo ${teste1}`)*/
+           
+      
+        /*function multiplique() {
+                   var valor_ingressos = 5.52
+                   var teste2 = prompt("o lvalor do ingresso e 5.52 digite quantos deseja: ")  
+                   var total= (teste2 * valor_ingressos)
+                   if (total == Number ){
+                     total = total
+                   }   
+                   else {
+                    window.alert("Digitou incorretamente recaregue a pagina para continuar ")
+                   }
+
+                   return (document.body.innerHTML = (`O valor total dos ingressos é: ${total}`))
+               }
+               multiplique()*/
+      const SolicitarIngressoEstudante = () => {
+
+        var parar = false
+
+        var qtd = 0 
+
+        while (!parar) {
+        var nome = prompt("informe o nome do estudante ")
+
+        if (qtd != " "){
+            qtd =  qtd + 1 
+        }
+        else {
+            parar = true
+        }
+       }
+      return qtd
+
+      }
+     SolicitarIngressoEstudante()
+
+    </script>
+
+</body>
+</html>
